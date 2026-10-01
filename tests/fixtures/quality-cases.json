@@ -1,0 +1,73 @@
+{
+  "transaction": {
+    "hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "successful": true,
+    "created_at": "2026-09-30T12:00:00Z",
+    "source_account": "GINICIADOR",
+    "fee_account": "GPAGADOR",
+    "fee_charged": "100",
+    "operation_count": 1,
+    "ledger": 123,
+    "memo_type": "text",
+    "memo": "Clase"
+  },
+  "operations": [
+    {
+      "type": "payment",
+      "source_account": "GORIGEN",
+      "from": "GREMITE",
+      "to": "GRECIBE",
+      "amount": "25",
+      "asset_type": "native"
+    },
+    {
+      "type": "create_account",
+      "source_account": "GFONDO",
+      "funder": "GFONDO",
+      "account": "GNUEVA",
+      "starting_balance": "5"
+    },
+    {
+      "type": "change_trust",
+      "source_account": "GCONFIANZA",
+      "asset_type": "credit_alphanum4",
+      "asset_code": "USD",
+      "trustee": "GEMISOR",
+      "limit": "100"
+    },
+    {
+      "type": "manage_data",
+      "source_account": "GDATOS",
+      "name": "curso",
+      "value": "dmFsb3I="
+    },
+    {
+      "type": "path_payment_strict_send",
+      "source_account": "GORIGENRUTA",
+      "from": "GREMITE",
+      "to": "GRECIBE",
+      "source_amount": "25",
+      "source_asset_type": "native",
+      "amount": "24.5",
+      "asset_type": "credit_alphanum4",
+      "asset_code": "USD",
+      "destination_min": "24"
+    },
+    {
+      "type": "path_payment_strict_receive",
+      "source_account": "GORIGENRUTA",
+      "from": "GREMITE",
+      "to": "GRECIBE",
+      "source_amount": "25",
+      "source_asset_type": "credit_alphanum4",
+      "source_asset_code": "USD",
+      "amount": "24.5",
+      "asset_type": "native",
+      "source_max": "26"
+    },
+    {
+      "type": "future_operation",
+      "source_account": "GDESCONOCIDA"
+    }
+  ]
+}

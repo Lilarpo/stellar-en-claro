@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none" role="img" aria-labelledby="favicon-title">
+  <title id="favicon-title">Stellar en Claro</title>
+  <ellipse cx="45" cy="44" rx="37" ry="18" transform="rotate(-27 45 44)" stroke="#6066BF" stroke-width="5"/>
+  <circle cx="44" cy="44" r="23" stroke="#12263F" stroke-width="6"/>
+  <path d="M61 61L79 79" stroke="#087D78" stroke-width="9" stroke-linecap="round"/>
+  <path d="M44 29L47.5 40.5L59 44L47.5 47.5L44 59L40.5 47.5L29 44L40.5 40.5L44 29Z" fill="#087D78"/>
+  <circle cx="15" cy="59" r="4" fill="#6066BF"/>
+</svg>
